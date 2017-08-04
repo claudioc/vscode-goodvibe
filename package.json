@@ -28,7 +28,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "goodvibe",
+                "label": "Goodvibe",
                 "uiTheme": "vs-dark",
                 "path": "./themes/goodvibe.json"
             }
