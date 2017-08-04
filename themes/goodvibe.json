@@ -1,0 +1,100 @@
+{
+    "name": "Goodvibe",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#1B1B1B",
+        "editor.foreground": "#00BCD4",
+        "editor.lineHighlightBackground": "#313131",
+        "editorWhitespace.foreground": "#196767",
+        "editor.findMatchHighlightBackground": "#DD2C00"
+    },
+
+    "tokenColors": [
+        {
+            "name": "Comments",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#81C784",
+                "background": "#C5E1A5"
+            }
+        },
+        {
+            "name": "Keywords, Punctuation",
+            "scope": [
+                "keyword",
+                "keyword.control",
+                "storage.type",
+                "storage.modifier",
+                "punctuation.definition.parameters",
+                "punctuation.section.parens.begin",
+                "variable.parameter",
+                "variable.other.property",
+                "support.variable.property.dom",
+                "variable.other.object.property",
+                "punctuation.separator",
+                "punctuation.accessor",
+                "punctuation.definition.array"
+            ],
+            "settings": {
+                "foreground": "#00BCD4"
+            }
+        },
+        {
+            "name": "Objects",
+            "scope": [
+                "variable.other.object",
+                "support.class.console",
+                "support.variable.dom",
+                "support.constant",
+                "entity.name.type.module",
+                "entity.name.type"
+            ],
+            "settings": {
+                "foreground": "#80DEEA"
+            }
+        },
+        {
+            "name": "Constants",
+            "scope": [
+                "constant.numeric",
+                "constant.language",
+                "support.type.primitive"
+            ],
+            "settings": {
+                "foreground": "#F9A825"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": [
+                "string",
+                "constant.other.symbol",
+                "punctuation.definition.string.begin",
+                "punctuation.definition.string.end"
+            ],
+            "settings": {
+                "foreground": "#FBC02D"
+            }
+        },
+        {
+            "name": "Method definitions, Variables",
+            "scope": [
+                "entity.name.function",
+                "support.function.dom",
+                "support.function",
+
+                "variable.language",
+                "variable.other.member",
+                "variable.other.readwrite",
+                "punctuation.definition.variable"
+            ],
+            "settings": {
+                "foreground": "#039BE5",
+                "fontStyle": "normal"
+            }
+        }
+    ]
+}
