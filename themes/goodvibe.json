@@ -72,29 +72,44 @@
             "name": "Strings",
             "scope": [
                 "string",
-                "constant.other.symbol",
-                "punctuation.definition.string.begin",
-                "punctuation.definition.string.end"
+                "constant.other.symbol"
             ],
             "settings": {
                 "foreground": "#FBC02D"
             }
         },
         {
-            "name": "Method definitions, Variables",
+            "name": "Quotes",
+            "scope": [
+                "punctuation.definition.string.begin",
+                "punctuation.definition.string.end"
+            ],
+            "settings": {
+                "foreground": "#00BCD4"
+            }
+        },
+        {
+            "name": "Method definitions",
             "scope": [
                 "entity.name.function",
                 "support.function.dom",
-                "support.function",
-
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#ECEFF1",
+                "fontStyle": "normal"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": [
                 "variable.language",
                 "variable.other.member",
                 "variable.other.readwrite",
                 "punctuation.definition.variable"
             ],
             "settings": {
-                "foreground": "#039BE5",
-                "fontStyle": "normal"
+                "foreground": "#80DEEA"
             }
         }
     ]
