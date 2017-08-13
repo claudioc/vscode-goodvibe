@@ -9,8 +9,8 @@ Please note that screenshot is taken while using these settings:
 
 ```
   "editor.renderWhitespace": "all",
-	"editor.fontFamily": "Fira Mono",
-	"editor.fontSize": 14,
+  "editor.fontFamily": "Fira Mono",
+  "editor.fontSize": 14
 ```
 
 ## Features
